@@ -7,15 +7,20 @@ Aplikasi ini adalah sistem absensi sederhana berbasis terminal (Command Line Int
 ### 💻 Compile
 
 Buka terminal/CMD di folder proyek dan jalankan:  
+```bash
 g++ -std=c++11 main.cpp Student.cpp StudentDatabase.cpp AbsensiController.cpp -o absensi
+```
 
 ### ▶️ Jalankan Program
 **Di Windows (CMD):**  
+```bash
 absensi
+```
 
 **Di Linux/macOS:**  
+```bash
 ./absensi
-
+```
 
 ## 👥 Peran Pengguna
 **1. Admin**  
